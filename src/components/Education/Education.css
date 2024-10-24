@@ -1,0 +1,36 @@
+.section.education {
+  padding: 2rem 0;
+}
+
+.section__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--clr-fg);
+}
+
+.education__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.education__item {
+  background-color: var(--clr-bg-alt);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+}
+
+.education__item:hover {
+  transform: translateY(-7px);
+}
+
+.education__period,
+.education__institution,
+.education__degree,
+.education__gpa,
+.education__notable {
+  margin: 0.5rem 0;
+  color: var(--clr-fg-alt);
+}
